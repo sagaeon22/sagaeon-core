@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Home on My New Hugo Project</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content in Home on My New Hugo Project</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>About Studio</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;p&gt;Sagaeon is a production space dedicated to technical lookdev, immersive worldbuilding, and real-time environment composition.&lt;/p&gt;&#xA;&lt;h3 id=&#34;core-pipelines&#34;&gt;Core Pipelines&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;3D &amp;amp; Lookdev:&lt;/strong&gt; Hard-surface custom asset modeling, procedural neon shaders, and scene composition.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-time Environments:&lt;/strong&gt; Unreal Engine 5 worldbuilding, custom lighting setups, and technical cinematic staging.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Projects</title>
+				<link>http://localhost:1313/projects/</link>
+				<pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/projects/</guid>
+				<description>&lt;p&gt;Welcome to the central archive. This space houses interactive worlds, real-time assets, and motion lookdev.&lt;/p&gt;&#xA;&lt;h3 id=&#34;featured-operations&#34;&gt;Featured Operations&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Noen&lt;/strong&gt; — A cyberpunk detective story set in a neon-drenched future. Built in Unreal Engine 5 focusing on techno-mythology themes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eternal Drive&lt;/strong&gt; — A 3D animation lookdev project experimenting with high-contrast cinematic workflows.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

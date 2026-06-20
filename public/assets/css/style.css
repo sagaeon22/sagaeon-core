@@ -1,0 +1,170 @@
+/* Core Grid Architecture */
+:root {
+  --bg-color: #0a0a0c;
+  --panel-color: #121216;
+  --text-main: #e2e8f0;
+  --text-muted: #64748b;
+  --neon-cyan: #00f3ff;
+  --neon-magenta: #ff0055;
+  --neon-glow: 0 0 8px rgba(0, 243, 255, 0.6);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Scanlines overlay effect */
+.scanlines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.06),
+    rgba(0, 255, 0, 0.02),
+    rgba(0, 0, 255, 0.06)
+  );
+  background-size: 100% 4px, 6px 100%;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+/* Header & Brand Nav */
+.site-header {
+  border-bottom: 1px solid #1e293b;
+  background: rgba(10, 10, 12, 0.8);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.brand {
+  font-family: 'Audiowide', sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.brand-glow {
+  color: var(--neon-cyan);
+  text-shadow: var(--neon-glow);
+}
+
+.brand-sub {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-left: 4px;
+}
+
+nav a {
+  color: var(--text-main);
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: var(--neon-cyan);
+  text-shadow: var(--neon-glow);
+}
+
+/* Main Display Framing */
+main {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  min-height: 60vh;
+}
+
+.homepage-content {
+  background: var(--panel-color);
+  border: 1px solid #1e293b;
+  border-left: 4px solid var(--neon-cyan);
+  padding: 3rem;
+  border-radius: 4px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+}
+
+h1, h4 {
+  font-family: 'Audiowide', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #fff;
+}
+
+/* Footer Terminal Configuration */
+.site-footer {
+  border-top: 1px solid #1e293b;
+  background: #0d0d11;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 3rem;
+}
+
+.footer-grid h4 {
+  color: #fff;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 2px;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-list li {
+  margin-bottom: 0.5rem;
+}
+
+.link-list a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.link-list a:hover {
+  color: var(--neon-magenta);
+}
