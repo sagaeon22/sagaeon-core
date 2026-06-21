@@ -6,8 +6,8 @@
   <title>{{ .Title }} — SAGAEON</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css">
+ <link rel="stylesheet" href="{{ "assets/css/style.css" | relURL }}">
+  <script defer src="{{ "assets/js/main.js" | relURL }}"></script>
   <script defer src="/assets/js/main.js"></script>
 </head>
 <body>
@@ -15,11 +15,12 @@
   
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="https://sagaeon.studio"><span class="brand-glow">SAGAEON</span><span class="brand-sub">core</span></a>
       <nav>
-        <a class="nav-link" href="/projects/" data-glitch="Projects">Projects</a>
-        <a class="nav-link" href="/about/" data-glitch="About">About</a>
-        <a class="nav-link" href="https://www.behance.net/meipb" target="_blank" rel="noopener" data-glitch="Behance">Behance</a>
+    <a class="nav-link" href="{{ "projects/" | relURL }}" data-glitch="Projects">Projects</a>
+    <a class="nav-link" href="{{ "about/" | relURL }}" data-glitch="About">About</a>
+    <a class="nav-link" href="https://www.behance.net/meipb" target="_blank" rel="noopener" data-glitch="Behance">Behance</a>
+    <a class="nav-link" href="mailto:sagaeon.studio@gmail.com" data-glitch="Contact">Contact</a>
+  </nav>
         <a class="nav-link" href="mailto:hello@sagaeon.com" data-glitch="Contact">Contact</a>
       </nav>
     </div>
