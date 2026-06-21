@@ -168,3 +168,14 @@ h1 {
 .link-list a:hover {
   color: var(--neon-magenta);
 }
+/* Matrix Digital Rain Backdrop Frame */
+#matrix-rain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Keeps it locked cleanly behind all content grids */
+  opacity: 0.15; /* Keeps it subtle so your portfolio text remains easy to read */
+  pointer-events: none; /* Prevents it from blocking clicks on links */
+}
