@@ -6,19 +6,21 @@
   <title>{{ .Title }} — SAGAEON</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link rel="stylesheet" href="{{ "assets/css/style.css" | relURL }}">
-<script defer src="{{ "js/main.js" | relURL }}"></script></head>
+  <link rel="stylesheet" href="{{ "assets/css/style.css" | relURL }}">
+  <script defer src="{{ "js/main.js" | relURL }}"></script>
+</head>
 <body>
   <!-- The Matrix Binary Rain Background Deck -->
   <canvas id="matrix-rain"></canvas>
-<header class="site-header">
+
+  <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="https://www.sagaeon.com"><span class="brand-glow">SAGAEON</span><span class="brand-sub">core</span></a>
       <nav>
         <a class="nav-link" href="{{ "projects/" | relURL }}" data-glitch="Projects">Projects</a>
         <a class="nav-link" href="{{ "about/" | relURL }}" data-glitch="About">About</a>
         <a class="nav-link" href="https://www.behance.net/meipb" target="_blank" rel="noopener" data-glitch="Behance">Behance</a>
-        <a class="nav-link" href="mailto:sagaeon.studio@gmail.com" data-glitch="Contact">Contact</a>
+        <a class="nav-link" href="{{ "contact/" | relURL }}" data-glitch="Contact">Contact</a>
       </nav>
     </div>
   </header>
@@ -35,7 +37,7 @@
           <li><a href="https://www.behance.net/meipb" target="_blank" rel="noopener">Behance</a></li>
           <li><a href="https://www.artstation.com/" target="_blank" rel="noopener">ArtStation</a></li>
           <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li><a href="mailto:hello@sagaeon.com">Email</a></li>
+          <li><a href="{{ "contact/" | relURL }}">Contact Form</a></li>
         </ul>
       </div>
       <div>
