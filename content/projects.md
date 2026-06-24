@@ -15,3 +15,10 @@ Welcome to the central archive. This space houses interactive worlds, real-time 
 </div>
 
 *   **Eternal Drive** — A 3D animation lookdev project experimenting with high-contrast cinematic workflows.
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/uSA4X_AFGbg" frameborder="0" width="100%" height="569" allowfullscreen="true"></iframe>
+</div>
+
+<div class="pitch-container">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSf5D_2mLWRTT621cgRyGDIG0ncM8f-az_RPEOQa0dM47aLu5ko2mCqMU7iP2HHeg/pubembed?start=true&loop=true&delayms=3000" frameborder="0" width="100%" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
