@@ -1,3 +1,7 @@
 baseURL = 'https://www.sagaeon.com/'
 locale = 'en-us'
 title = 'SAGAEON'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
