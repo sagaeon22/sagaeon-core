@@ -23,10 +23,15 @@ Welcome to the central nexus. I am a 3D artist, animator, and motion designer sp
 <div class="portfolio-grid">
 
 <div class="project-card">
-<img src="/images/cozy-apartment.jpg" alt="Custom 3D Room Interior">
+<div class="sketchfab-embed-wrapper" style="width: 100%; height: 220px; overflow: hidden; border-bottom: 1px solid #1e293b;"> 
+<iframe title="Full House" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/81021050c8db47b2a14cb77da8cdf823/embed?ui_theme=dark&ui_hint=0" style="width: 100%; height: 100%; border: none;"></iframe> 
+</div>
 <div class="project-info">
-<h3>Cozy Apartment Scene</h3>
-<p>Complete environmental asset pipeline. Every piece custom-modeled in Autodesk Maya with a focus on lighting syntax, spatial layout, and structural composition.</p>
+<h3>Full House Environment</h3>
+<p>Interactive 3D environmental design asset pipeline custom-modeled in Autodesk Maya. Explorable level layout demonstrating structural tracking, prop placement, and spatial scaling.</p>
+<p style="font-size: 11px; margin-top: 10px; font-family: monospace; color: var(--text-muted);">
+<a href="https://sketchfab.com/3d-models/full-house-81021050c8db47b2a14cb77da8cdf823" target="_blank" rel="nofollow" style="color: var(--neon-cyan); text-decoration: none;">View on Sketchfab →</a>
+</p>
 </div>
 </div>
 
