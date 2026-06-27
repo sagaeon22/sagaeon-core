@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Home on My New Hugo Project</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content in Home on My New Hugo Project</description>
+		<title>Home on SAGAEON</title>
+		<link>https://www.sagaeon.com/</link>
+		<description>Recent content in Home on SAGAEON</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
 		
 		
 		
-			<lastBuildDate>Sat, 20 Jun 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 24 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.sagaeon.com/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Contact</title>
+				<link>https://www.sagaeon.com/contact/</link>
+				<pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.sagaeon.com/contact/</guid>
+				<description>&lt;h1 id=&#34;-establish-secure-comm-link&#34;&gt;// ESTABLISH SECURE COMM-LINK&lt;/h1&gt;&#xA;&lt;p&gt;Initiate direct routing protocol to the Sagaeon Studio mainframe. Recruiter alerts and production inquiries are prioritized.&lt;/p&gt;&#xA;&lt;form action=&#34;https://formspree.io/f/xkoloavq&#34; method=&#34;POST&#34; style=&#34;margin: 2.5rem 0; max-width: 600px; font-family: monospace;&#34;&gt;&#xD;&#xA;  &lt;!-- Name Input --&gt;&#xD;&#xA;  &lt;div style=&#34;margin-bottom: 1.5rem;&#34;&gt;&#xD;&#xA;    &lt;label style=&#34;display: block; color: var(--neon-cyan); margin-bottom: 0.5rem; font-size: 0.85rem; letter-spacing: 1px;&#34;&gt;// IDENTITY.NAME :&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;text&#34; name=&#34;name&#34; required style=&#34;width: 100%; padding: 0.75rem; background: #0a0a0c; border: 1px solid rgba(0, 255, 204, 0.3); border-radius: 4px; color: #fff; font-family: monospace; outline: none; transition: border 0.3s ease;&#34; onfocus=&#34;this.style.border=&#39;1px solid var(--neon-cyan)&#39;&#34; onblur=&#34;this.style.border=&#39;1px solid rgba(0, 255, 204, 0.3)&#39;&#34;&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;!-- Email Input --&gt;&#xD;&#xA;  &lt;div style=&#34;margin-bottom: 1.5rem;&#34;&gt;&#xD;&#xA;    &lt;label style=&#34;display: block; color: var(--neon-cyan); margin-bottom: 0.5rem; font-size: 0.85rem; letter-spacing: 1px;&#34;&gt;// ROUTING.EMAIL :&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;email&#34; name=&#34;_replyto&#34; required style=&#34;width: 100%; padding: 0.75rem; background: #0a0a0c; border: 1px solid rgba(0, 255, 204, 0.3); border-radius: 4px; color: #fff; font-family: monospace; outline: none; transition: border 0.3s ease;&#34; onfocus=&#34;this.style.border=&#39;1px solid var(--neon-cyan)&#39;&#34; onblur=&#34;this.style.border=&#39;1px solid rgba(0, 255, 204, 0.3)&#39;&#34;&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;!-- Message Input --&gt;&#xD;&#xA;  &lt;div style=&#34;margin-bottom: 2rem;&#34;&gt;&#xD;&#xA;    &lt;label style=&#34;display: block; color: var(--neon-cyan); margin-bottom: 0.5rem; font-size: 0.85rem; letter-spacing: 1px;&#34;&gt;// TRANSMISSION.BODY :&lt;/label&gt;&#xD;&#xA;    &lt;textarea name=&#34;message&#34; required rows=&#34;6&#34; style=&#34;width: 100%; padding: 0.75rem; background: #0a0a0c; border: 1px solid rgba(0, 255, 204, 0.3); border-radius: 4px; color: #fff; font-family: monospace; outline: none; resize: vertical; transition: border 0.3s ease;&#34; onfocus=&#34;this.style.border=&#39;1px solid var(--neon-cyan)&#39;&#34; onblur=&#34;this.style.border=&#39;1px solid rgba(0, 255, 204, 0.3)&#39;&#34;&gt;&lt;/textarea&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;!-- Submit Button --&gt;&#xD;&#xA;  &lt;button type=&#34;submit&#34; style=&#34;display: inline-block; padding: 0.75rem 1.5rem; border: 1px solid var(--neon-cyan); color: var(--neon-cyan); background: rgba(0, 255, 204, 0.02); border-radius: 4px; font-size: 0.85rem; font-family: monospace; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: all 0.3s ease;&#34; onmouseover=&#34;this.style.background=&#39;rgba(0, 255, 204, 0.1)&#39;; this.style.boxShadow=&#39;0 0 15px rgba(0, 255, 204, 0.3)&#39;&#34; onmouseout=&#34;this.style.background=&#39;rgba(0, 255, 204, 0.02)&#39;; this.style.boxShadow=&#39;none&#39;&#34;&gt;&#xD;&#xA;    Broadcast Transmission →&#xD;&#xA;  &lt;/button&gt;&#xD;&#xA;&lt;/form&gt;</description>
+			</item>
 			<item>
 				<title>About Studio</title>
-				<link>http://localhost:1313/about/</link>
+				<link>https://www.sagaeon.com/about/</link>
 				<pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/about/</guid>
+				<guid>https://www.sagaeon.com/about/</guid>
 				<description>&lt;p&gt;Sagaeon is a production space dedicated to technical lookdev, immersive worldbuilding, and real-time environment composition.&lt;/p&gt;&#xA;&lt;h3 id=&#34;core-pipelines&#34;&gt;Core Pipelines&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;3D &amp;amp; Lookdev:&lt;/strong&gt; Hard-surface custom asset modeling, procedural neon shaders, and scene composition.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-time Environments:&lt;/strong&gt; Unreal Engine 5 worldbuilding, custom lighting setups, and technical cinematic staging.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
 			<item>
 				<title>Projects</title>
-				<link>http://localhost:1313/projects/</link>
+				<link>https://www.sagaeon.com/projects/</link>
 				<pubDate>Sat, 20 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/projects/</guid>
-				<description>&lt;p&gt;Welcome to the central archive. This space houses interactive worlds, real-time assets, and motion lookdev.&lt;/p&gt;&#xA;&lt;h3 id=&#34;featured-operations&#34;&gt;Featured Operations&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Noen&lt;/strong&gt; — A cyberpunk detective story set in a neon-drenched future. Built in Unreal Engine 5 focusing on techno-mythology themes.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eternal Drive&lt;/strong&gt; — A 3D animation lookdev project experimenting with high-contrast cinematic workflows.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+				<guid>https://www.sagaeon.com/projects/</guid>
+				<description>&lt;p&gt;Welcome to the central archive. This space houses interactive worlds, real-time assets, and motion lookdev.&lt;/p&gt;&#xA;&lt;h3 id=&#34;featured-operations&#34;&gt;Featured Operations&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Noen&lt;/strong&gt; — A cyberpunk detective story set in a neon-drenched future. Built in Unreal Engine 5 focusing on techno-mythology themes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;pitch-container&#34;&gt;&#xD;&#xA;  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vTNRIsPc_tw8yASsnJOp8n1tj_hjtKPUSJfsaMQs3xIqNlAQIpdrqUZtHPxUCs-PI1JEgrOl7IB7AQk/pubembed?start=true&amp;loop=true&amp;delayms=5000&#34; frameborder=&#34;0&#34; width=&#34;100%&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h4 id=&#34;02--title-identity--asset-lookdev&#34;&gt;02 // Title Identity &amp;amp; Asset Lookdev&lt;/h4&gt;&#xA;&lt;div class=&#34;pitch-container&#34;&gt;&#xD;&#xA;  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vROhMKIZXwNFI-bJ7yNJfNPftfz3p29fxAsOc2Q_MEGEMjf882SN-Nwv8ah3r1lbBFwdnVmjJOmzXml/pubembed?start=true&amp;loop=true&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;100%&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Eternal Drive&lt;/strong&gt; — A 3D animation lookdev project experimenting with high-contrast cinematic workflows.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;video-container&#34;&gt;&#xD;&#xA;  &lt;iframe src=&#34;https://www.youtube.com/embed/uSA4X_AFGbg&#34; frameborder=&#34;0&#34; width=&#34;100%&#34; height=&#34;569&#34; allowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;pitch-container&#34;&gt;&#xD;&#xA;  &lt;iframe src=&#34;https://docs.google.com/presentation/d/e/2PACX-1vSf5D_2mLWRTT621cgRyGDIG0ncM8f-az_RPEOQa0dM47aLu5ko2mCqMU7iP2HHeg/pubembed?start=true&amp;loop=true&amp;delayms=3000&#34; frameborder=&#34;0&#34; width=&#34;100%&#34; height=&#34;749&#34; allowfullscreen=&#34;true&#34; mozallowfullscreen=&#34;true&#34; webkitallowfullscreen=&#34;true&#34;&gt;&lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;</description>
 			</item>
 	</channel>
 </rss>

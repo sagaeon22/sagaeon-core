@@ -38,3 +38,50 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   });
+  document.addEventListener("DOMContentLoaded", () => {
+  const canvas = document.getElementById("matrix-rain");
+  if (!canvas) return;
+
+  const ctx = canvas.getContext("2d");
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+  resizeCanvas();
+  window.addEventListener("resize", resizeCanvas);
+
+  const alphabet = "01";
+  const fontSize = 16;
+  
+  let columns = Math.floor(canvas.width / fontSize);
+  let rainDrops = Array(columns).fill(1);
+
+  window.addEventListener("resize", () => {
+    columns = Math.floor(canvas.width / fontSize);
+    rainDrops = Array(columns).fill(1);
+  });
+
+  function drawMatrix() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "#00ffcc"; // Signature theme neon cyan
+    ctx.font = fontSize + "px Audiowide, Courier New, monospace";
+
+    for (let i = 0; i < rainDrops.length; i++) {
+      const text = alphabet.charAt(Math.floor(Math.random() * alphabet.length));
+      const x = i * fontSize;
+      const y = rainDrops[i] * fontSize;
+
+      ctx.fillText(text, x, y);
+
+      if (y > canvas.height && Math.random() > 0.975) {
+        rainDrops[i] = 0;
+      }
+      rainDrops[i]++;
+    }
+  }
+
+  setInterval(drawMatrix, 33);
+});
